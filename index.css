@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1c1c1c;
+  /* display: flex; */
+}
+.container {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.btn,
+.reset {
+  font-size: 48px;
+  border: 3px solid black;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.paper {
+  margin: 0 15px;
+}
+.yourScore {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.result,
+.random {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  color: white;
+}
